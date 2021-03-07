@@ -8,7 +8,7 @@ const DisplayWeather = (props) => {
     <div className="displayweather">
       <div className="maincard">
         <span className="cardtitle">
-          {data.name}, {data.sys.country}. Weather
+          {data.name}, {data.sys.country}. Weather forecast
         </span>
         <span className="cardsubtitle">
           As of {new Date().toLocaleTimeString()}
