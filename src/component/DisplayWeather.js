@@ -3,6 +3,7 @@ import "./displayweather.css";
 
 const DisplayWeather = (props) => {
   console.log("props", props);
+
   const { data } = props;
   return (
     <div className="displayweather">
