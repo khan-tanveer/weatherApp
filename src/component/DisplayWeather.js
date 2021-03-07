@@ -5,6 +5,7 @@ const DisplayWeather = (props) => {
   console.log("props", props);
 
   const { data } = props;
+
   return (
     <div className="displayweather">
       <div className="maincard">
