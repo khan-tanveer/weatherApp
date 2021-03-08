@@ -41,6 +41,11 @@ const Weather = () => {
       setForm({ ...form, country: value });
     }
 
+    // setForm({
+    //   city: "",
+    //   country: "",
+    // });
+
     console.log(form.city, form.country);
   };
 
